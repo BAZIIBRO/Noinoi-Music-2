@@ -4,11 +4,11 @@ import os
 import wget
 import speedtest
 
-from program.utils.formatters import bytes
-from driver.filters import command, other_filters
-from driver.decorators import sudo_users_only
-from config import BOT_USERNAME as bname
-from driver.veez import bot as app
+from NoinoiMusic.PLUGINS.utils.formatters import bytes
+from NoinoiMusic.DREAMS.filters import command, other_filters
+from NoinoiMusic.DREAMS.decorators import sudo_users_only
+from NoinoiMusic.config import BOT_USERNAME as bname
+from NoinoiMusic.DREAMS.veez import bot as app
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
