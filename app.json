@@ -1,7 +1,7 @@
 {
     "name": "NOINOI MUSIC",
     "description": "Telegram bot for Streaming Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/c15feb04daa395f5f5b89.jpg",
+    "logo": "https://telegra.ph/file/c7e47f14f73dbb89884c6.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -44,7 +44,7 @@
             "required": true
         },
         "MONGODB_URL": {
-            "description": "fill with the mongodb url you created from cloud.mongodb.com (tutorial about how to make it, find it on @VeezSupportGroup)",
+            "description": "fill with the mongodb url you created from cloud.mongodb.com (tutorial about how to make it, find it on @CFC_BOT_SUPPORT)",
             "required": true
         },
         "SUDO_USERS": {
