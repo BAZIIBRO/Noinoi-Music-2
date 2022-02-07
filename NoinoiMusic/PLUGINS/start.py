@@ -65,31 +65,22 @@ async def start_(client: Client, message: Message):
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
 """,
         reply_markup=InlineKeyboardMarkup(
-            [
+            [ 
                 [
-                    InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    )
+                    InlineKeyboardButton("✨ Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("Source", url=f"https://github.com/HYKO-XD/NOINOI-MUSIC"),
+                    InlineKeyboardButton("📣 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❓ Setup", callback_data="cbhowtouse"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        " Add me to your Group ,
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
-                ],
+                ],  
             ]
         ),
         disable_web_page_preview=True,
