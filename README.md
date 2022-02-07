@@ -52,8 +52,7 @@
 
 ## Heroku Deployment 💜
 
-<h3 align="center">Click The button below for deploy your bot to Heroku, Note: Set the app country to Europe (it will help to make the bot stable).</h3>
-<p align="center"><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
