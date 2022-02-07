@@ -1,15 +1,13 @@
-# Copyright (C) 2021 Veez Project
-
 import re
 import uuid
 import socket
 
 import psutil
 import platform
-from config import BOT_USERNAME
-from driver.filters import command
+from NoinoiMusic.config import BOT_USERNAME
+from NoinoiMusic.DREAMS.filters import command
 from pyrogram import Client, filters
-from driver.decorators import sudo_users_only, humanbytes
+from NoinoiMusic.DREAMS.decorators import sudo_users_only, humanbytes
 
 
 # FETCH SYSINFO
