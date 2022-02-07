@@ -1,13 +1,13 @@
-from config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
+from NoinoiMusic.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
 bot = Client(
-    ":veez:",
+    ":noinoi:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={"root": "program"},
+    plugins={"root": "NoinoiMusic"},
 )
 
 user = Client(
