@@ -1,11 +1,11 @@
 import asyncio
-from driver.veez import user
+from NoinoiMusic.DREAMS.noinoi import user
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from config import BOT_USERNAME, SUDO_USERS
-from driver.filters import command, other_filters
+from NoinoiMusic.config import BOT_USERNAME, SUDO_USERS
+from NoinoiMusic.DREAMS.filters import command, other_filters
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
-from driver.decorators import authorized_users_only, sudo_users_only
+from NoinoiMusic.DREAMS.decorators import authorized_users_only, sudo_users_only
 
 
 @Client.on_message(
