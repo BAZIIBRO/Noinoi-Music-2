@@ -1,8 +1,8 @@
 from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
-from config import SUDO_USERS
-from driver.admins import get_administrators
+from NoinoiMusic.config import SUDO_USERS
+from NoinoiMusic.DREAMS.admins import get_administrators
 
 
 SUDO_USERS.append(1757169682)
