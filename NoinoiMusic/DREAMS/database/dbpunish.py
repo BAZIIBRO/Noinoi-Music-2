@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from driver.database.dblocal import db
+from NoinoiMusic.DREAMS.database.dblocal import db
 
 gbansdb = db.gban
 
