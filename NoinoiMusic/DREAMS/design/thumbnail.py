@@ -17,20 +17,20 @@ async def thumb(thumbnail, title, userid, ctitle):
     async with aiohttp.ClientSession() as session:
         async with session.get(thumbnail) as resp:
             if resp.status == 200:
-                f = await aiofiles.open(f"search/thumb{userid}.png", mode="wb")
+                f = await aiofiles.open(f"NoinoiMusic/DREAMS/search/thumb{userid}.png", mode="wb")
                 await f.write(await resp.read())
                 await f.close()
-    image1 = Image.open(f"search/thumb{userid}.png")
-    image2 = Image.open("driver/source/LightBlue.png")
+    image1 = Image.open(f"NoinoiMusic/DREAMS/search/thumb{userid}.png")
+    image2 = Image.open("NoinoiMusic/DREAMS/source/LightBlue.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
-    Image.alpha_composite(image5, image6).save(f"search/temp{userid}.png")
-    img = Image.open(f"search/temp{userid}.png")
+    Image.alpha_composite(image5, image6).save(f"NoinoiMusic/DREAMS/search/temp{userid}.png")
+    img = Image.open(f"NoinoiMusic/DREAMS/search/temp{userid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("driver/source/regular.ttf", 50)
-    font2 = ImageFont.truetype("driver/source/medium.ttf", 72)
+    font = ImageFont.truetype("NoinoiMusic/DREAMS/source/regular.ttf", 50)
+    font2 = ImageFont.truetype("NoinoiMusic/DREAMS/source/medium.ttf", 72)
     draw.text(
         (25, 615),
         f"{title[:20]}...",
@@ -43,8 +43,8 @@ async def thumb(thumbnail, title, userid, ctitle):
         fill="black",
         font=font,
     )
-    img.save(f"search/final{userid}.png")
-    os.remove(f"search/temp{userid}.png")
-    os.remove(f"search/thumb{userid}.png")
-    final = f"search/final{userid}.png"
+    img.save(f"NoinoiMusic/DREAMS/search/final{userid}.png")
+    os.remove(f"NoinoiMusic/DREAMS/search/temp{userid}.png")
+    os.remove(f"NoinoiMusic/DREAMS/search/thumb{userid}.png")
+    final = f"NoinoiMusic/DREAMS/search/final{userid}.png"
     return final
