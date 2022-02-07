@@ -23,9 +23,9 @@ from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from yt_dlp import YoutubeDL
 
-from config import BOT_USERNAME as bn
-from driver.decorators import humanbytes
-from driver.filters import command, other_filters
+from NoinoiMusic.config import BOT_USERNAME as bn
+from NoinoiMusic.DREAMS.decorators import humanbytes
+from NoinoiMusic.DREAMS.filters import command, other_filters
 
 
 ydl_opts = {
