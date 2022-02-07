@@ -1,6 +1,6 @@
 from typing import List
 from pyrogram.types import Chat
-from cache.admins import get as gett, set
+from NoinoiMusic.DREAMS.cache.admins import get as gett, set
 
 async def get_administrators(chat: Chat) -> List[int]:
     get = gett(chat.id)
