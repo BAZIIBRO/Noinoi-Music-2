@@ -10,11 +10,11 @@ from io import StringIO
 from sys import version as pyver
 from inspect import getfullargspec
 
-from config import BOT_USERNAME as bname
-from driver.veez import bot
-from driver.filters import command
+from NoinoiMusic.config import BOT_USERNAME as bname
+from NoinoiMusic.DREAMS.noinoi import bot
+from NoinoiMusic.DREAMS.filters import command
 from pyrogram import Client, filters
-from driver.decorators import sudo_users_only, errors
+from NoinoiMusic.DREAMS.decorators import sudo_users_only, errors
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 
