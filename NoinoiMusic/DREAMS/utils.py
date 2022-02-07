@@ -1,7 +1,7 @@
 import asyncio
 
-from driver.queues import QUEUE, clear_queue, get_queue, pop_an_item
-from driver.veez import bot, call_py
+from NoinoiMusic.DREAMS.queues import QUEUE, clear_queue, get_queue, pop_an_item
+from NoinoiMusic.DREAMS.noinoi import bot, call_py
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
