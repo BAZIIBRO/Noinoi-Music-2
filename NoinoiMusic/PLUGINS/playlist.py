@@ -1,8 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
-# Commit Start Date 20/10/2021
-# Finished On 28/10/2021
-
-from config import BOT_USERNAME
+from NoinoiMusic.config import BOT_USERNAME
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
@@ -10,8 +6,8 @@ from pyrogram.types import (
     Message,
 )
 from pyrogram import Client, filters
-from driver.queues import QUEUE, get_queue
-from driver.filters import command, other_filters
+from NoinoiMusic.DREAMS.queues import QUEUE, get_queue
+from NoinoiMusic.DREAMS.filters import command, other_filters
 
 
 keyboard = InlineKeyboardMarkup(
