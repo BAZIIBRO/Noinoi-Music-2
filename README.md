@@ -1,6 +1,6 @@
 <p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://telegra.ph/file/c15feb04daa395f5f5b89.jpg"></a></p>
 <p align="center">
-    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+    <br><b>NOINOI MUSIC BOT</b><br>
 </p>
 
 ## ✨ Features
