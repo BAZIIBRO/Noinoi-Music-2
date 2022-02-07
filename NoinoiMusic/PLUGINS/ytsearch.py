@@ -1,5 +1,5 @@
-from config import BOT_USERNAME
-from driver.filters import command
+from NoinoiMusic.config import BOT_USERNAME
+from NoinoiMusic.DREAMS.filters import command
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
