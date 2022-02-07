@@ -13,11 +13,11 @@ from config import (
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
-from program import __version__
-from driver.veez import user
-from driver.filters import command, other_filters
-from driver.database.dbchat import add_served_chat, is_served_chat
-from driver.database.dbpunish import is_gbanned_user
+from NoinoiMusic.PLUGINS import __version__
+from NoinoiMusic.DREAMS.noinoi import user
+from NoinoiMusic.DREAMS.filters import command, other_filters
+from NoinoiMusic.DREAMS.database.dbchat import add_served_chat, is_served_chat
+from NoinoiMusic.DREAMS.database.dbpunish import is_gbanned_user
 from pyrogram import Client, filters, __version__ as pyrover
 from pyrogram.errors import FloodWait, MessageNotModified
 from pytgcalls import (__version__ as pytover)
