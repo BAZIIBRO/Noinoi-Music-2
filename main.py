@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from driver.veez import call_py, bot, user
+from NoinoiMusic.DREAMS.noinoi import call_py, bot, user
 
 
 async def start_bot():
@@ -8,8 +8,8 @@ async def start_bot():
     print("[INFO]: BOT & UBOT CLIENT STARTED !!")
     await call_py.start()
     print("[INFO]: PY-TGCALLS CLIENT STARTED !!")
-    await user.join_chat("VeezSupportGroup")
-    await user.join_chat("levinachannel")
+    await user.join_chat("CFC_BOT_SUPPORT")
+    await user.join_chat("BAZIGARXD")
     await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
