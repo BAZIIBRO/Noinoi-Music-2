@@ -1,18 +1,18 @@
-from cache.admins import admins
-from driver.veez import call_py, bot
+from NoinoiMusic.DREAMS.cache.admins import admins
+from NoinoiMusic.DREAMS.noinoi import call_py, bot
 from pyrogram import Client, filters
-from driver.design.thumbnail import thumb
-from driver.design.chatname import CHAT_TITLE
-from driver.queues import QUEUE, clear_queue
-from driver.filters import command, other_filters
-from driver.decorators import authorized_users_only
-from driver.utils import skip_current_song, skip_item
+from NoinoiMusic.DREAMS.design.thumbnail import thumb
+from NoinoiMusic.DREAMS.design.chatname import CHAT_TITLE
+from NoinoiMusic.DREAMS.queues import QUEUE, clear_queue
+from NoinoiMusic.DREAMS.filters import command, other_filters
+from NoinoiMusic.DREAMS.decorators import authorized_users_only
+from NoinoiMusic.DREAMS.utils import skip_current_song, skip_item
 from program.utils.inline import (
     stream_markup,
     close_mark,
     back_mark,
 )
-from config import BOT_USERNAME, GROUP_SUPPORT, IMG_5, UPDATES_CHANNEL
+from NoinoiMusic.config import BOT_USERNAME, GROUP_SUPPORT, IMG_5, UPDATES_CHANNEL
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
