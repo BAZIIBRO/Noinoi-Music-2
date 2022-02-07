@@ -1,19 +1,19 @@
 {
-    "name": "Video x Music Stream Bot",
-    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
+    "name": "NOINOI MUSIC",
+    "description": "Telegram bot for Streaming Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
+    "logo": "https://telegra.ph/file/c15feb04daa395f5f5b89.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
-        "video stream",
-        "live stream",
+        "noinoi music",
+        "telegram music",
         "music stream",
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "website": "https://t.me/BAZIGARXD",
+    "repository": "https://github.com/HYKO-XD/NOINOI-MUSIC",
+    "success_url": "https://t.me/BAZIGARYT",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -55,27 +55,27 @@
         "UPSTREAM_REPO": {
             "description": "This is needed for update feature, if you deployed forked repo put your forked repo link here, if not just leave it as it",
             "required": true,
-            "value": "https://github.com/levina-lab/video-stream"
+            "value": "https://github.com/HYKO-XD/NOINOI-MUSIC"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "VeezSupportGroup"
+            "value": "CFC_BOT_SUPPORT"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "levinachannel"
+            "value": "BAZIGARXD"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "dlwrml"
+            "value": "BAZIGARYT"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Levina"
+            "value": "NOINOI-X"
         }
     },
     "addons": [],
