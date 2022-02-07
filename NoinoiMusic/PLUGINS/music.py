@@ -1,7 +1,3 @@
-# Copyright (C) 2021 By Veez Music-Project
-# Commit Start Date 20/10/2021
-# Finished On 28/10/2021
-
 # pyrogram stuff
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
@@ -11,14 +7,14 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 # repository stuff
-from program.utils.inline import stream_markup
-from driver.design.thumbnail import thumb
-from driver.design.chatname import CHAT_TITLE
-from driver.filters import command, other_filters
-from driver.queues import QUEUE, add_to_queue
-from driver.veez import call_py, user
-from driver.utils import bash
-from config import BOT_USERNAME, IMG_5
+from NoinoiMusic.PLUGINS.utils.inline import stream_markup
+from NoinoiMusic.DREAMS.design.thumbnail import thumb
+from NoinoiMusic.DREAMS.design.chatname import CHAT_TITLE
+from NoinoiMusic.DREAMS.filters import command, other_filters
+from NoinoiMusic.DREAMS.queues import QUEUE, add_to_queue
+from NoinoiMusic.DREAMS.veez import call_py, user
+from NoinoiMusic.DREAMS.utils import bash
+from NoinoiMusic.config import BOT_USERNAME, IMG_5
 # youtube-dl stuff
 from youtubesearchpython import VideosSearch
 
