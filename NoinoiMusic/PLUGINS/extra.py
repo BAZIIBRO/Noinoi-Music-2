@@ -3,9 +3,9 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from driver.filters import command
-from driver.decorators import sudo_users_only
-from driver.database.dbchat import get_served_chats
+from NoinoiMusic.DREAMS.filters import command
+from NoinoiMusic.DREAMS.decorators import sudo_users_only
+from NoinoiMusic.DREAMS.database.dbchat import get_served_chats
 
 from config import BOT_USERNAME as bn
 
