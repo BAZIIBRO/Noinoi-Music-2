@@ -50,7 +50,7 @@
 
 ## Repo is not completed ❌
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/Noinoi-Music)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
