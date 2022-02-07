@@ -1,10 +1,8 @@
-# Copyright (C) 2021 By VeezMusicProject
-
-from driver.queues import QUEUE
+from NoinoiMusic.DREAMS.queues import QUEUE
 from pyrogram import Client, filters
 from program.utils.inline import menu_markup
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from config import (
+from NoinoiMusic.config import (
     ASSISTANT_NAME,
     BOT_NAME,
     BOT_USERNAME,
@@ -27,29 +25,20 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    )
+                    InlineKeyboardButton("✨ Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("Source", url=f"https://github.com/HYKO-XD/NOINOI-MUSIC"),
+                    InlineKeyboardButton("📣 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❓ Setup", callback_data="cbhowtouse"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        " Add me to your Group ,
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
-                ],
+                ],  
             ]
         ),
         disable_web_page_preview=True,
